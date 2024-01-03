@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/input">
+        <div id="container">
+            <div id="formlable">Presonal Details</div>
+            <br>
+            <label for="salutation">
+            Salutation
+            <br>
+            <select>
+                <option value="--None--" selected aria-required="true">--None--</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Mrs.">Mrs.</option>
+            </select>
+            </label>
+            <br>
+            <br>
+            <label for="name">First Name: 
+                <input type="text" id="name" placeholder="First Name">
+                <br>
+                <br> 
+                Last Name: 
+                <input type="text" id="name" placeholder="Last Name">
+            </label>
+            <br>
+            <br>
+            <label for="gender">
+                Gender:
+                <input type="radio" name="gender">
+                Male
+                <input type="radio" name="gender">
+                Female
+            </label>
+            <br>
+            <br>
+            <label for="email">
+            E-mail:
+            <input type="email" name="email" placeholder="Enter Email">
+            </label>
+            <br>
+            <br>
+            <label for="DateofBirth">
+                Date Of Birth:
+                <input type="date" name="DateofBirth">
+            </label>
+            <br>
+            <br>
+            <label for="address">
+                Address:
+                <br>
+                <textarea name="Address" id="address" cols="30" rows="5"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="submit">
+                <input type="submit">
+            </label>
+            <label for="reset">
+                <input type="reset">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
